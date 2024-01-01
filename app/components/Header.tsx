@@ -31,9 +31,6 @@ const Header = () => {
                         <Link href={"/about"}>
                             <h1 className={currentRoute === '/about' ? "text-sm text-[#1097A9]" : "text-sm hover:text-[#1097A9]"}>About</h1>
                         </Link>
-                        <Link href={"/contact"}>
-                            <h1 className={currentRoute === '/contact' ? "text-sm text-[#1097A9]" : "text-sm hover:text-[#1097A9]"}>Contact</h1>
-                        </Link>
                     </div>
                 </div>
                 <div className="flex items-center gap-3">
